@@ -1,0 +1,26 @@
+themoviedb.org 
+movieapp989
+movie1111
+
+APi key:
+c855e11c98dfa36769202bdc50e95589
+
+example: 
+https://api.themoviedb.org/3/movie/550?api_key=c855e11c98dfa36769202bdc50e95589
+
+now playing:
+https://api.themoviedb.org/3/movie/now_playing?api_key=c855e11c98dfa36769202bdc50e95589&language=en-US&page=1
+
+popular:
+https://api.themoviedb.org/3/movie/popular?api_key=c855e11c98dfa36769202bdc50e95589&language=en-US&page=1
+
+top rated:
+https://api.themoviedb.org/3/movie/top_rated?api_key=c855e11c98dfa36769202bdc50e95589&language=en-US&page=1
+
+upcoming: 
+
+https://api.themoviedb.org/3/movie/upcoming?api_key=c855e11c98dfa36769202bdc50e95589&language=en-US&page=1
+
+search:
+
+https://api.themoviedb.org/3/search/movie?api_key=c855e11c98dfa36769202bdc50e95589&query={movie_name}
