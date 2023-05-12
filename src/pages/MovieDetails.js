@@ -98,7 +98,7 @@ export const MovieDetails = () => {
               target="blank"
             >
               <span>
-                <img src={imdblogo} className="w-20 px-4" />
+                <img src={imdblogo} alt="imdb logo" className="w-20 px-4" />
               </span>
               Link
             </a>
