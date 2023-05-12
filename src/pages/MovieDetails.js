@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import { useTitle } from "../hooks/useTitle";
 import { useParams } from "react-router-dom";
 import noImage from "../Assets/noimage.png";
 import imdblogo from "../Assets/imdblogo.png";
@@ -57,6 +56,7 @@ export const MovieDetails = () => {
           ) : (
             ""
           )}
+
           <div className="flex items-center">
             <svg
               aria-hidden="true"

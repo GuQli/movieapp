@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
 import PageNotFoundImg from "../Assets/pagenotfound.jpg";
 import { Button } from "../components/index";
-import { useEffect } from "react";
 import { useTitle } from "../hooks/useTitle";
 
 export const PageNotFound = () => {
