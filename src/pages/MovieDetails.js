@@ -71,12 +71,9 @@ export const MovieDetails = () => {
               {String(Math.round(movie.vote_average * 10) / 10)}
             </p>
             <span className="w-1 h-1 mx-1.5 bg-gray-500 rounded-full dark:bg-gray-400"></span>
-            <a
-              href="#"
-              className="text-sm font-medium text-gray-900 underline hover:no-underline dark:text-white"
-            >
+            <span className="text-sm font-medium text-gray-900 underline hover:no-underline dark:text-white">
               {movie.vote_count} reviews
-            </a>
+            </span>
           </div>
           <p className="my-4">
             <span className="mr-2 font-bold">Runtime:</span>
@@ -84,11 +81,11 @@ export const MovieDetails = () => {
           </p>
           <p className="my-4">
             <span className="mr-2 font-bold">Budget:</span>
-            <span>{movie.runtime} min.</span>
+            <span>{movie.budget} mln.</span>
           </p>
           <p className="my-4">
             <span className="mr-2 font-bold">Revenue:</span>
-            <span>{movie.revenue} min.</span>
+            <span>{movie.revenue} mln.</span>
           </p>
           <p className="my-4">
             <span className="mr-2 font-bold">Release Date:</span>
